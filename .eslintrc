@@ -1,0 +1,14 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "extends": [
+    "@wemake-services/typescript/recommended",
+    "@wemake-services/javascript"
+  ],
+  "rules": {
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "max-len": "off"
+  }
+}
