@@ -1,8 +1,8 @@
-import { FC } from 'react'
-import Tasks from './components/tasks'
+import { FC } from "react";
+import Tasks from "./components/Tasks";
 
 const App: FC = () => {
-  return <Tasks />
-}
+  return <Tasks />;
+};
 
-export default App
+export default App;
